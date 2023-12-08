@@ -1,0 +1,202 @@
+/*Notes
+Fonts
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Space Mono', monospace;
+font-family: 'Teko', sans-serif;
+
+Note to Self: Roboto should be Avenir 55 in all non-web branding,
+Avenir 55 not available on Google Fonts.
+
+Colors
+Cobalt Blue = #0047ab
+Hexachrome Black = #212121
+White
+
+Font Usage
+Main Header
+Teko Semibold
+Cobalt Blue
+Size 18-20
+
+Header 2
+Teko Semibold
+Cobalt Blue
+Size 14-16
+
+Header 3
+Teko Semibold
+Hexachrome Black
+Size 12-14
+
+Breadcrumb Text
+Teko Semibold
+Hexachrome Black
+Size 8-10
+
+Body Copy
+Roboto
+Hexachrome Black
+Size 10-12
+
+On colored backgrounds all text is white.
+Fonts need to be doubled on web pages.
+*/
+
+* {
+    font-family: 'Teko', sans-serif;
+}
+
+header {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #0047ab;
+    border-radius: 12px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #0047ab;
+    font-family: 'Teko', sans-serif;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #0047ab;
+    font-family: 'Teko', sans-serif;
+    margin-top: -20px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
+h4 {
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+    background-color: #0047ab;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    border-radius: 12px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.headertext {
+    color: white !important;
+}
+
+img {
+    width: 20%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 32px;
+}
+
+.blue-box {
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    background-color: #0047ab;
+    border-radius: 12px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 16px 16px 16px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    box-shadow: rgba(0, 71, 171, .5) 6px 6px;
+}
+
+.black-box {
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    background-color: #212121;
+    border-radius: 12px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 16px 16px 16px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    box-shadow: rgba(33, 33, 33, .5) 6px 6px;
+}
+
+.white-box {
+    font-size: 32px;
+    font-weight: 600;
+    color: #0047ab;
+    background-color:white;
+    border-radius: 12px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 16px 16px 16px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: 3px solid #0047ab;
+    box-shadow: rgba(250, 249, 246) 10px 10px;
+}
+
+.box-small {
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    font-family: 'Roboto', sans-serif !important;
+    margin-top: -10px;
+}
+
+.box-smaller {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.font-box {
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    background-color: #0047ab;
+    border-radius: 12px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 16px 16px 16px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    box-shadow: rgba(0, 71, 171, .5) 6px 6px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #0047ab;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 32px;
+}
